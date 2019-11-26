@@ -10,7 +10,7 @@ package examenpractica_colas;
  *
  * @author Nicole
  */
-public class Email implements Comparable{
+public class Email {
     private String remitente;
     private String destinatario;
     private int importancia;
@@ -60,11 +60,6 @@ public class Email implements Comparable{
         return "Email{" + "remitente=" + remitente + ", destinatario=" + destinatario + ", importancia=" + importancia + ", mensaje=" + mensaje + '}';
     }
 
-    @Override
-    public int compareTo(Object o) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
     
     
     
